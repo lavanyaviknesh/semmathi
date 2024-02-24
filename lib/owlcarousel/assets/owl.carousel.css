@@ -157,7 +157,7 @@
 
 .owl-carousel .owl-video-tn {
   opacity: 0;
-  height: 100%;
+  height: 200%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -166,5 +166,5 @@
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
-  height: 100%;
+  height: 200%;
   width: 100%; }

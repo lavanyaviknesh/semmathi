@@ -226,7 +226,7 @@ h6,
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h5 {
+    .carousel-caption h7 {
         font-size: 14px;
         font-weight: 500 !important;
     }
@@ -245,7 +245,7 @@ h6,
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     width: 3rem;
-    height: 3rem;
+    height: 50rem;
 }
 
 
@@ -490,3 +490,67 @@ h6,
         margin-bottom: -75px;
     }
 }
+/*Search Box*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box
+    }
+    /*body{
+     background:#262a2f ;
+    color:#333 ;
+    }*/
+    .search-box
+        {
+        width: 500px;
+        background: #fff;
+        margin: 200px auto 0;
+        border-radius: 5px;
+        }
+     .row
+        { 
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+         }
+       input{
+        flex: 1;
+        height: 45px;
+        background: transparent ;
+        border: 0;
+        outline: 0;
+        font-size: 18px;
+        color: #333
+        }
+        button{
+           background: transparent ;
+           border: 0;
+           outline: 0;
+          }  
+        button .fa-solid{
+            width: 25px;
+            color: #555;
+            font-size: 22px;
+            cursor: pointer
+          } 
+          ::placeholder{
+            color: #555;
+          }
+          .result-box ul{
+            border-top: 1px solid #999;
+            padding:15px 10px;
+          }
+          .result-box ul li{
+            list-style: none;
+            border-radius: 3px;
+            padding: 15px 10px;
+            cursor: pointer;
+          }
+          .result-box ul li:hover{
+            background: #e9f3ff;
+        }
+        .result-box{
+            max-height: 300px;
+            overflow-y: scroll ;
+        }

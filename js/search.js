@@ -20,10 +20,10 @@ inputBox.onkeyup = function(){
         });
         console.log(result);
     }
-      display(result);
+    display(result);
     
     if(!result.length){
-        resultsBox.innerHTML = '';
+        resultsBox.innerHTML ='';
     }
    }
 function display(result){
@@ -31,7 +31,7 @@ function display(result){
         return "<li onclick=selectInput(this)>"+ list + "</li>";
     });
 
-    resultsBox.innerHTML = "<ul>"+ content.join('') +"</ul>";
+    resultsBox.innerHTML = "<ul>"+content+"</ul>";
 }
    function selectInput(list){
       inputBox.value = list.innerHTML;

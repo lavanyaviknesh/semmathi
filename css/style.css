@@ -155,7 +155,7 @@ h6,
     border-color: var(--primary) !important;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 600px) {
     .sticky-top.navbar-dark {
         position: relative;
         background: #FFFFFF;
@@ -173,7 +173,7 @@ h6,
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 400px) {
     .navbar-dark {
         position: absolute;
         width: 100%;

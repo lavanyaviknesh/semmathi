@@ -31,6 +31,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/search.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   
     
     
@@ -151,7 +152,7 @@
             <div class="modal-header border-0">
                 <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-           <div class="search-box">
+           <!-- <div class="search-box">
             <div class="modal-body d-flex align-items-center justify-content-center">
              <div class="row"></div>
                 <input type="text" id="input-box" placeholder="Search Anything " autocomplete="off">
@@ -161,7 +162,19 @@
                 </div>
                 <script src="js/search.js"></script>
          </div>
-         </div>
+         </div> -->
+         <div class="wrapper">
+            <div class="search-input">
+              <a href="" target="_blank" hidden></a>
+              <input type="text" placeholder="Type to search..">
+              <div class="autocom-box">
+             
+              </div>
+              <div class="icon"><i class="fas fa-search"></i></div>
+             
+            </div>
+          </div>
+          
           </div> 
          
  <!-- Full Screen Search End -->
@@ -636,6 +649,8 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+<script src="js/suggestions.js"></script>
+<script src="js/search.js"></script>
 
 </body>
 </html>

@@ -1,121 +1,19 @@
-/*       
-    .search-box
-        {
-        width: 400px;
-        background: #fff;
-        margin: 200px auto 0;
-        border-radius: 5px;
-        }
-     .row
-        { 
-            display: flex; 
-            padding: 10px 20px;
-         }
-       input{
-        flex: 1;
-        height: 50px;
-        background: transparent ;
-        border: 0;
-        outline: 0;
-        font-size: 18px;
-        color: #333
-        }
-        button .fa-solid{
-            width: 25px;
-            color: #555;
-            font-size: 22px;
-            cursor: pointer
-          }  
-          ::placeholder{
-            color: #555;
-            
-          }
-          .result-box ul{
-            border-top: 1px solid #999;
-            padding:10px 10px;
-            
-          }
-          .result-box ul li{
-            list-style: none;
-            border-radius: 3px;
-            padding: 5px 10px;
-            cursor: pointer;
-          }
-          .result-box ul li:hover{
-            background: #e9f3ff;
-            
-        }
-        .result-box{
-            max-height: 300px;
-            overflow-y: scroll ;
-        } 
-        
-        
-      
-       .sidebar{
-          width: 25%;
-          border: apx solid #eee;
-          border-radius: 3px;
-          padding: 15px;
-          height: 92vh;
-          box-shadow: 0px 0px 3px gray;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-      }
-      
-      
-      .searchbar{
-          width: 100%;
-          background-color: #eee;
-          border-radius: 3px;
-          padding: 9px;
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-      }
-     
-      
-      .box{
-          margin: 1px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-between;
-          border: 1px solid #333;
-          border-radius: 5px;
-          padding: 15px;
-      }
-      button{
-          width: 100%;
-          border: none;
-          border-radius: 5px;
-          background-color: #333;
-          padding: 7px 25px;
-          cursor: pointer;
-          color: white;
-      }
-      
-      ::-webkit-scrollbar{
-          display: none;
-      } 
-       */
-       /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-} */
+}
 
-/* body{
+body{
   background: #644bff;
   padding: 0 20px;
 } */
 
 ::selection{
   color: #fff;
-  background: #664AFF;
+  background:rgb(22, 188, 243);;
 }
 
 .wrapper{
@@ -185,6 +83,6 @@
   text-align: center;
   line-height: 55px;
   font-size: 20px;
-  color: #644bff;
+  color: rgb(22, 188, 243);
   cursor: pointer;
 }

@@ -160,6 +160,16 @@ h6,
         position: relative;
         background: #FFFFFF;
     }
+    .navbar-toggler {
+        order: -0.1; /* Moves the menu icon to the beginning */
+        display:inline-table;
+        position: left;
+        padding: 10px;
+        margin-left: -25px;
+        height: 42px ;
+        width: 42px;
+    
+    }
 
     .navbar-dark .navbar-nav .nav-link,
     .navbar-dark .navbar-nav .nav-link.show,
@@ -232,8 +242,8 @@ h6,
     }
 
     .carousel-caption h1 {
-        font-size: 60px;
-        font-weight: 100 !important;
+        font-size: 30px;
+        font-weight: 600 !important;
     }
 }
 
@@ -485,64 +495,40 @@ h6,
     padding-left: 10px;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-    color: rgba(255, 255, 255, .5);
-}
-
 @media (min-width: 767.98px) {
     .footer-about {
         margin-bottom: -75px;
     }
 }
 
-
- 
-
-@media (max-width:1100px){
-.navbar-brand img{
-    height: 60px;
-    width: 60px;
-    margin-bottom: 10px; 
-    
-}
-.breadcrumb-item + .breadcrumb-item::before{
-    height: 25% ;
-    width: 25%;
-    text-align: center;
-
-}
-}
-.navbar-brand img {
-    max-width: 150px; /* Adjust the maximum width of the logo */
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle; /* Align the logo vertically with the text */
-}
-
 .navbar-brand h1 {
-    font-size: 1.9rem; /* Adjust the font size of the heading */
+    font-size: 34px;
     margin: 0; /* Remove any default margin */
-    
-    
+    margin-left: -40px;
+    padding-right: 2px;
 }
+
+.navbar-brand img {
+    width: 84px;
+    height: 84px;
+    margin-left: -30px;
+}
+
 
 
 @media (max-width: 1100px) {
-    .navbar-brand  h1 {
-      
-            font-size: 1.3rem; /* Adjust the font size of the heading */
-            margin: 0; /* Remove any default margin */
-           
-            
-        }
-        
+    .navbar-brand h1 {
+        font-size: 1.11rem; /* Adjust the font size of the heading */
+        margin: 0; /* Remove any default margin */
+        margin-left: -40px;
+        padding-right: 2px;
+    }
     
-
     .navbar-brand img {
-       width: 60px ;
-        height: 60px;
-       padding: 0%;
+        width: 58px;
+        height: 58px;
+        margin-left: -40px;
+    }
     
     }
-}
 

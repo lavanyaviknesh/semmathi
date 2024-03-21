@@ -215,7 +215,7 @@ figure.effect-julia:hover p {
 
 .gallery-section .slick-dots li.slick-active,
 .gallery-section .slick-dots li:hover {
-  background-color: rgb(23, 132, 233);
+  background-color:  #06A3DA;
 }
 
 .gallery-section .slick-dots li button { display: none; }

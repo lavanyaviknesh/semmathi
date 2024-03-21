@@ -518,10 +518,9 @@ h6,
 
 @media (max-width: 1100px) {
     .navbar-brand h1 {
-        font-size: 1.11rem; /* Adjust the font size of the heading */
+        font-size: 1.12rem; /* Adjust the font size of the heading */
         margin: 0; /* Remove any default margin */
-       
-        padding-right: 2px;
+        padding-right: 4px;
     }
     
     .navbar-brand img {

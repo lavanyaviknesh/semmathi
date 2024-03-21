@@ -520,14 +520,14 @@ h6,
     .navbar-brand h1 {
         font-size: 1.11rem; /* Adjust the font size of the heading */
         margin: 0; /* Remove any default margin */
-        margin-left: -40px;
+       
         padding-right: 2px;
     }
     
     .navbar-brand img {
         width: 58px;
         height: 58px;
-        margin-left: -40px;
+        
     }
     
     }

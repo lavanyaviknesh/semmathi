@@ -512,16 +512,37 @@ h6,
 
 }
 }
-@media (max-width: 1100px) { 
-    .navbar-brand h1.m-0 {
-    display: grid;
-    flex-direction: column; 
-    
-   
-    }
-
-  
-  
-
-
+.navbar-brand img {
+    max-width: 150px; /* Adjust the maximum width of the logo */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle; /* Align the logo vertically with the text */
 }
+
+.navbar-brand h1 {
+    font-size: 1.9rem; /* Adjust the font size of the heading */
+    margin: 0; /* Remove any default margin */
+    
+    
+}
+
+
+@media (max-width: 1100px) {
+    .navbar-brand  h1 {
+      
+            font-size: 1.3rem; /* Adjust the font size of the heading */
+            margin: 0; /* Remove any default margin */
+           
+            
+        }
+        
+    
+
+    .navbar-brand img {
+       width: 60px ;
+        height: 60px;
+       padding: 0%;
+    
+    }
+}
+
